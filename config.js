@@ -11,7 +11,7 @@ global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
 global.email = 'botwhatsapp204@gmail.com' ;
-global.location = 'Rathnapura SriLanka' ;
+global.location = 'Africa/ Nairobi' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Nairobi'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '254783194313'; ;
@@ -50,9 +50,9 @@ module.exports = {
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
   caption :process.env.CAPTION || "```||◁ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ-ᴍᴅ▷||```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'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',
   VERSION: process.env.VERSION || 'v.1.2.2',
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'VAJIRA',
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'josh',
   menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Vajira-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'public',
   KOYEB_API : process.env.KOYEB_API || ''
