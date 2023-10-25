@@ -725,13 +725,13 @@ smd({ on: "text" }, async(Suhail, msg) => {
             await Suhail.bot.sendMessage(msg.chat, { image: {  url: await botpic() },
         caption: `
 ╔════◇
-║ *Wow,Vajira just Online*
-║ *leveled Up Vajira Bot⭐*
+║ *Wow,josh just Online*
+║ *leveled Up josh Bot⭐*
 ║ *👤Name*: ${msg.pushName}
 ║ *🎐Level*: ${users.level}🍭
 ║ *🛑Exp*: ${users.xp} / ${Levels.xpFor(users.level + 1)}
 ║ *📍Role*: *${role}*
-║ *Enjoy Vajira Bot🥳*
+║ *Enjoy josh Bot🥳*
 ╚════════════╝ `   }, { quoted: msg });
         }
     }
